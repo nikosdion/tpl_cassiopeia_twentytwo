@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" client="site">
+    <name>cassiopeia_twentytwo</name>
+    <version>1.0</version>
+    <creationDate>September 2022</creationDate>
+    <author>Nicholas K. Dionysopoulos</author>
+    <authorEmail>nicholas@dionysopoulos.me</authorEmail>
+    <copyright>(C) 2022 Nicholas K. Dionysopoulos</copyright>
+    <description>TPL_CASSIOPEIA_XML_DESCRIPTION</description>
+
+    <positions>
+        <position>topbar</position>
+        <position>below-top</position>
+        <position>menu</position>
+        <position>search</position>
+        <position>banner</position>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>main-top</position>
+        <position>main-bottom</position>
+        <position>breadcrumbs</position>
+        <position>sidebar-left</position>
+        <position>sidebar-right</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>footer</position>
+        <position>debug</position>
+    </positions>
+
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+                <field name="fluidContainer" type="radio" layout="joomla.form.field.radio.switcher" default="0"
+                       label="TPL_CASSIOPEIA_FLUID_LABEL">
+                    <option value="0">TPL_CASSIOPEIA_STATIC</option>
+                    <option value="1">TPL_CASSIOPEIA_FLUID</option>
+                </field>
+                <field name="stickyHeader" type="radio" label="TPL_CASSIOPEIA_STICKY_LABEL"
+                       layout="joomla.form.field.radio.switcher" default="0" filter="integer">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="backTop" type="radio" label="TPL_CASSIOPEIA_BACKTOTOP_LABEL"
+                       layout="joomla.form.field.radio.switcher" default="0" filter="integer">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+
+    <files>
+        <filename>templateDetails.xml</filename>
+    </files>
+
+    <media folder="media" destination="templates/site/cassiopeia_twentytwo">
+        <folder>css</folder>
+        <folder>js</folder>
+        <folder>images</folder>
+        <folder>html</folder>
+        <folder>scss</folder>
+    </media>
+
+    <inheritable>0</inheritable>
+    <parent>cassiopeia</parent>
+</extension>

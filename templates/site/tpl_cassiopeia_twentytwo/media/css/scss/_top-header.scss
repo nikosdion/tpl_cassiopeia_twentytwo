@@ -1,0 +1,12 @@
+.container-header {
+  background-color: var(--dark);
+  background-image: linear-gradient(135deg, black 10%, var(--dark) 100%);
+
+  div.navbar-brand {
+    &>a.brand-logo {
+      img {
+        height: 1.5em;
+      }
+    }
+  }
+}
