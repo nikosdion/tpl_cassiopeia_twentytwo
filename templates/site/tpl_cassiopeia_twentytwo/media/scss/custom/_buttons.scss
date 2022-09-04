@@ -1,0 +1,10 @@
+@media screen and (prefers-color-scheme: dark) {
+  .btn-secondary {
+    background-color: var(--secondary) !important;
+    color: white !important;
+
+    &:hover {
+      background-color: var(--primary) !important;
+    }
+  }
+}

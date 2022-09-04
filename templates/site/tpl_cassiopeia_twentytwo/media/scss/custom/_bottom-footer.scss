@@ -1,0 +1,10 @@
+.container-footer {
+  background-color: var(--secondary);
+  background-image: linear-gradient(135deg, var(--secondary) 10%, var(--primary) 100%);
+
+  @media screen and (prefers-color-scheme: dark) {
+    background-image: linear-gradient(135deg, var(--secondary) 10%, black 100%) !important;
+    border-top: thin solid rgba(255,255,255,0.15);
+  }
+
+}

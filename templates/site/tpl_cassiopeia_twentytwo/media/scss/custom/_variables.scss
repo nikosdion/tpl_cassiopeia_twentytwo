@@ -27,3 +27,13 @@
   --template-link-color: #932220;
   --template-special-color: #932220;
 }
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --cassiopeia-color-link: #cb5a5a;
+  }
+
+  html {
+    font-size: 1.1rem;
+  }
+}

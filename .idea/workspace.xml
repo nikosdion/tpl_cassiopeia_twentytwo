@@ -1,94 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/Nicholas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pandoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phing.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tpl_cassiopeia_twentytwo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/templates/link.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/com_content/article/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/dionysopoulos/blogger_info.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/dionysopoulos/picture_element.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/joomla/content/info_block.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/joomla/content/info_block/author.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/joomla/html/image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/scss/_blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/scss/_bottom-footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/scss/_top-header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/eps/icon-black-bg-red.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/eps/icon-grey.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/eps/icon-red-bg-black.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/eps/icon-red.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/eps/icon-white-bg-red.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/eps/icon-white.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-114.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-120.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-144.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-152.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-16.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-32.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-57.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/favicon/favicon-72.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-black-bg-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-black-bg-red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-red-bg-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-red-bg-black@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-red@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-red@4x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-red@4x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-white-bg-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-white-bg-red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/png/icon-white@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/svg/icon-black-bg-red.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/svg/icon-grey.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/svg/icon-red-bg-black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/svg/icon-red.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/svg/icon-white-bg-red.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/svg/icon-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/webp/icon-black-bg-red.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/webp/icon-black-bg-red@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/webp/icon-grey.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/webp/icon-grey@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/webp/icon-red-bg-black.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/webp/icon-red-bg-black@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/webp/icon-red.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/webp/icon-red@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/webp/icon-red@4x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/webp/icon-white-bg-red.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/webp/icon-white-bg-red@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/webp/icon-white.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/images/logos/webp/icon-white@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/src/Helper/ImageResizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/templateDetails.xml" afterDir="false" />
+    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Restarting the site's template&#10;&#10;As a child template of Cassiopeia">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tpl_cassiopeia_twentytwo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tpl_cassiopeia_twentytwo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/scss/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/scss/_bottom-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_bottom-footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/scss/_top-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_top-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/user.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +53,7 @@
     "node.js.selected.package.stylelint": "",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "/opt/homebrew/bin/npm",
-    "settings.editor.selected.configurable": "copyright.profiles"
+    "settings.editor.selected.configurable": "watcher.settings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -141,6 +65,7 @@
       <recent name="$PROJECT_DIR$/build" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss" />
       <recent name="$PROJECT_DIR$/templates/site" />
     </key>
   </component>
@@ -152,8 +77,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662216715951</updated>
-      <workItem from="1662216717115" duration="7120000" />
+      <workItem from="1662216717115" duration="9587000" />
+      <workItem from="1662278034702" duration="3373000" />
     </task>
+    <task id="LOCAL-00001" summary="Restarting the site's template&#10;&#10;As a child template of Cassiopeia">
+      <created>1662223879453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662223879453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +103,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Restarting the site's template&#10;&#10;As a child template of Cassiopeia" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restarting the site's template&#10;&#10;As a child template of Cassiopeia" />
   </component>
   <component name="WordPressConfiguration">
     <wordpressPath />
