@@ -1,0 +1,20 @@
+.list-group-item-action
+{
+  background-color: #ffffff10 !important;
+  color: #f0f0f0;
+
+  a {
+    color: var(--cassiopeia-color-link) !important;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  &:focus, &:hover {
+    background-color: #ffffffc0 !important;
+    color: #303030;
+
+    a {
+      color: var(--cassiopeia-color-hover) !important;
+    }
+  }
+}

@@ -95,6 +95,23 @@ div.com-content-category-blog__item.blog-item .item-content aside.akenage-commen
   background-color: rgba(204, 255, 204, 0.1215686275);
 }
 
+.list-group-item-action {
+  background-color: rgba(255, 255, 255, 0.062745098) !important;
+  color: #f0f0f0;
+}
+.list-group-item-action a {
+  color: var(--cassiopeia-color-link) !important;
+  font-weight: 500;
+  text-decoration: none;
+}
+.list-group-item-action:focus, .list-group-item-action:hover {
+  background-color: rgba(255, 255, 255, 0.7529411765) !important;
+  color: #303030;
+}
+.list-group-item-action:focus a, .list-group-item-action:hover a {
+  color: var(--cassiopeia-color-hover) !important;
+}
+
 .container-footer {
   background-color: var(--secondary);
   background-image: linear-gradient(135deg, var(--secondary) 10%, var(--primary) 100%);
