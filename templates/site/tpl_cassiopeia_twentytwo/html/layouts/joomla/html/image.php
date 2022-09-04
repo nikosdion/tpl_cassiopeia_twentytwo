@@ -1,5 +1,13 @@
 <?php
 /**
+ *  Cassiopeia/TwentyTwo — Dionysopoulos.me Official Site Template
+ *
+ *  @package     tpl_cassiopeia_twentytwo
+ *  @copyright   (C) 2022 Nicholas K. Dionysopoulos
+ *  @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+/**
  * Layout variables
  * -----------------
  *

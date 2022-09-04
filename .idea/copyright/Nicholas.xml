@@ -1,6 +1,6 @@
 <component name="CopyrightManager">
   <copyright>
-    <option name="notice" value=" Cassiopeia/TwentyTwo — Dionysopoulos.me Official Site Template&#10; &#10; @package   tpl_cassiopeia_twentytwo&#10; @copyright Copyright (c)2022-&amp;#36;today.year Nicholas K. Dionysopoulos&#10; @license   GNU General Public License version 2, or later" />
+    <option name="notice" value=" Cassiopeia/TwentyTwo — Dionysopoulos.me Official Site Template&#10; &#10; @package     tpl_cassiopeia_twentytwo&#10; @copyright   (C) 2022 Nicholas K. Dionysopoulos&#10; @license     GNU General Public License version 2 or later; see LICENSE.txt" />
     <option name="myName" value="Nicholas" />
   </copyright>
 </component>
