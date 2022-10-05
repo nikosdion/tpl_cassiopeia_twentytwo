@@ -2,9 +2,9 @@
 /**
  *  Cassiopeia/TwentyTwo — Dionysopoulos.me Official Site Template
  *
- *  @package     tpl_cassiopeia_twentytwo
- *  @copyright   (C) 2022 Nicholas K. Dionysopoulos
- *  @license     GNU General Public License version 2 or later; see LICENSE.txt
+ * @package         tpl_cassiopeia_twentytwo
+ * @copyright   (C) 2022 Nicholas K. Dionysopoulos
+ * @license         GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 defined('_JEXEC') or die;
@@ -66,7 +66,7 @@ if (empty($file))
 $caption = htmlspecialchars($caption ?? '');
 $altText = htmlspecialchars($alt ?? '');
 $resizer = ImageResizer::getInstance()
-	->setRelativeCachePath($params->get('imgCacheFolder', 'autosized'));
+                       ->setRelativeCachePath($params->get('imgCacheFolder', 'autosized'));
 
 if ($resize)
 {
@@ -82,8 +82,14 @@ if ($resize)
 
 		/** @var \Joomla\CMS\Document\HtmlDocument $doc */
 		$doc      = $app->getDocument();
-		$hasLeft  = $doc->countModules('sidebar-left') > 0;
-		$hasRight = $doc->countModules('sidebar-right') > 0;
+		$hasLeft  = false;
+		$hasRight = false;
+
+		if (method_exists($doc, 'countModules'))
+		{
+			$hasLeft  = $doc->countModules('sidebar-left') > 0;
+			$hasRight = $doc->countModules('sidebar-right') > 0;
+		}
 
 		if (!$hasLeft && !$hasRight)
 		{

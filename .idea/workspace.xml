@@ -4,13 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Copyright etc">
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/language/en-GB/tpl_cassiopeia_twentytwo.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/language/en-GB/tpl_cassiopeia_twentytwo.sys.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/html/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/js/.gitkeep" afterDir="false" />
+    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Fix packaging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/templateDetails.xml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/templateDetails.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/dionysopoulos/picture_element.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/dionysopoulos/picture_element.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +35,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "18.7.0",
-    "javascript.nodejs.core.library.typings.version": "18.6.5",
-    "last_opened_file_path": "/Users/nicholas/Projects/dionysopoulos/tpl_cassiopeia_twentytwo/templates/site/tpl_cassiopeia_twentytwo/media/html",
-    "node.js.selected.package.stylelint": "",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "/opt/homebrew/bin/npm",
-    "settings.editor.selected.configurable": "copyright.filetypes.PHP",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.7.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.6.5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nicholas/Projects/dionysopoulos/tpl_cassiopeia_twentytwo/templates/site/tpl_cassiopeia_twentytwo/media/html&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;/opt/homebrew/bin/npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright.filetypes.PHP&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/html" />
@@ -80,7 +76,8 @@
       <workItem from="1662278034702" duration="7861000" />
       <workItem from="1662531053478" duration="18000" />
       <workItem from="1664013369379" duration="786000" />
-      <workItem from="1664950446234" duration="2402000" />
+      <workItem from="1664950446234" duration="2415000" />
+      <workItem from="1664982282451" duration="230000" />
     </task>
     <task id="LOCAL-00001" summary="Restarting the site's template&#10;&#10;As a child template of Cassiopeia">
       <created>1662223879453</created>
@@ -117,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662316682165</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix packaging">
+      <created>1664957789619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664957789619</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +143,8 @@
     <MESSAGE value="Adjust some readability parameters" />
     <MESSAGE value="Tag list presentation" />
     <MESSAGE value="Copyright etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Copyright etc" />
+    <MESSAGE value="Fix packaging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix packaging" />
   </component>
   <component name="WordPressConfiguration">
     <wordpressPath />
