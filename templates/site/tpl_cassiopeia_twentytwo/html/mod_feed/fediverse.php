@@ -50,6 +50,31 @@ if (!empty($feed) && is_string($feed)) {
 	$hasDescription = $params->get('rssdesc', 1) == 1;
 	$hasImage       = $feed->image && $params->get('rssimage', 1) == 1;
 	$profileUrl     = str_replace('@', 'web/@', substr($rssurl, 0, -4));
+	$contentWarning = null;
+
+	$fediverseConvertText = function(string $text) use ($params, &$contentWarning): string
+	{
+		// Make links visible again
+		$text = str_replace('<span class="invisible"', '<span ', $text);
+		// Strip the images.
+		$text = OutputFilter::stripImages($text);
+
+		// Process content warning
+		$contentWarning = null;
+
+		if (str_starts_with($text, '<p><strong>Content warning:</strong>'))
+		{
+			$hrPos = strpos($text, '<hr />');
+			$contentWarning = substr($text, 0, $hrPos);
+			$contentWarning = str_replace('<strong>Content warning:</strong>', '', $contentWarning);
+			$text = substr($text, $hrPos + 6);
+		}
+
+		$text = HTMLHelper::_('string.truncate', $text, $params->get('word_count', 0));
+		$text = str_replace('&apos;', "'", $text);
+
+		return $text;
+	};
 
     if ($feed !== false) {
         ?>
@@ -100,15 +125,24 @@ if (!empty($feed) && is_string($feed)) {
                 ?>
                 <li class="m-0 p-0 <?= ($i !== 0) ? 'border-top border-muted pt-3' : '' ?> pb-1">
                     <?php if ($params->get('rssitemdesc', 1) && $text !== '') : ?>
+						<?php
+	                    	$text = $fediverseConvertText($text);
+						?>
                         <div class="feed-item-description">
-                        <?php
-							// Make links visible again
-							$text = str_replace('<span class="invisible"', '<span ', $text);
-                            // Strip the images.
-                            $text = OutputFilter::stripImages($text);
-                            $text = HTMLHelper::_('string.truncate', $text, $params->get('word_count', 0));
-                            echo str_replace('&apos;', "'", $text);
-                        ?>
+							<?php if (!empty($contentWarning)): ?>
+								<details class="mb-2">
+									<summary>
+										<span class="fa fa-exclamation-triangle"
+											  title="Content warning: <?= htmlspecialchars(strip_tags($contentWarning), ENT_COMPAT, 'UTF-8') ?>"
+											  aria-hidden="true"></span>
+										<span class="visually-hidden">Content warning:</span>
+										<strong><?= strip_tags($contentWarning) ?></strong>
+									</summary>
+									<?= $fediverseConvertText($text) ?>
+								</details>
+							<?php else: ?>
+								<?= $fediverseConvertText($text) ?>
+							<?php endif; ?>
                         </div>
                     <?php endif; ?>
 

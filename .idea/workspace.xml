@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Fix issue with RSS/Atom feeds">
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/mod_feed/fediverse.php" afterDir="false" />
+    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Mastodon-optimised template override for mod_feed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/mod_feed/fediverse.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/mod_feed/fediverse.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,25 +38,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "18.11.0",
-    "javascript.nodejs.core.library.typings.version": "18.11.0",
-    "last_opened_file_path": "/Users/nicholas/Projects/dionysopoulos/tpl_cassiopeia_twentytwo/templates/site/tpl_cassiopeia_twentytwo/html/mod_feed",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "/opt/homebrew/bin/npm",
-    "settings.editor.selected.configurable": "copyright.filetypes.PHP",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.11.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.11.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nicholas/Projects/dionysopoulos/tpl_cassiopeia_twentytwo/templates/site/tpl_cassiopeia_twentytwo/html/mod_feed&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;/opt/homebrew/bin/npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright.filetypes.PHP&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/mod_feed" />
@@ -69,6 +69,16 @@
       <recent name="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss" />
       <recent name="$PROJECT_DIR$/templates/site" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="scratch_1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.scratch_1 | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,7 +95,8 @@
       <workItem from="1664950446234" duration="2415000" />
       <workItem from="1664982282451" duration="360000" />
       <workItem from="1666975960812" duration="2192000" />
-      <workItem from="1667810231254" duration="3233000" />
+      <workItem from="1667810231254" duration="6045000" />
+      <workItem from="1667847332480" duration="1031000" />
     </task>
     <task id="LOCAL-00001" summary="Restarting the site's template&#10;&#10;As a child template of Cassiopeia">
       <created>1662223879453</created>
@@ -136,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664982638856</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Mastodon-optimised template override for mod_feed">
+      <created>1667813692125</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667813692125</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +178,8 @@
     <MESSAGE value="Copyright etc" />
     <MESSAGE value="Fix packaging" />
     <MESSAGE value="Fix issue with RSS/Atom feeds" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix issue with RSS/Atom feeds" />
+    <MESSAGE value="Mastodon-optimised template override for mod_feed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mastodon-optimised template override for mod_feed" />
   </component>
   <component name="WordPressConfiguration">
     <wordpressPath />
