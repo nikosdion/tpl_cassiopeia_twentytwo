@@ -154,7 +154,7 @@ if (isset($attributes['class']))
 		<?php if ($caption) : ?>
 			title="<?= $caption ?>"
 		<?php endif; ?>
-		<?php if (!empty($classes)): ?>
+		<?php if (!empty($classes) && is_array($classes)): ?>
 			class="<?= implode(' ', $classes) ?>"
 		<?php endif; ?>
 			src="<?= $imgSrc ?>"

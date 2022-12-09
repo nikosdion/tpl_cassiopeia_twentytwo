@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Mastodon-optimised template override for mod_feed">
+    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Support content warnings in fediverse feeds">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/mod_feed/fediverse.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/mod_feed/fediverse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/dionysopoulos/picture_element.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/dionysopoulos/picture_element.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,9 @@
       <workItem from="1664982282451" duration="360000" />
       <workItem from="1666975960812" duration="2192000" />
       <workItem from="1667810231254" duration="6045000" />
-      <workItem from="1667847332480" duration="1031000" />
+      <workItem from="1667847332480" duration="1154000" />
+      <workItem from="1667858496659" duration="2307000" />
+      <workItem from="1670595314808" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="Restarting the site's template&#10;&#10;As a child template of Cassiopeia">
       <created>1662223879453</created>
@@ -154,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667813692125</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Support content warnings in fediverse feeds">
+      <created>1667848389157</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667848389157</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +188,8 @@
     <MESSAGE value="Fix packaging" />
     <MESSAGE value="Fix issue with RSS/Atom feeds" />
     <MESSAGE value="Mastodon-optimised template override for mod_feed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mastodon-optimised template override for mod_feed" />
+    <MESSAGE value="Support content warnings in fediverse feeds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Support content warnings in fediverse feeds" />
   </component>
   <component name="WordPressConfiguration">
     <wordpressPath />
