@@ -1,2 +1,4 @@
 ### Release files
 release/**
+/.idea/sshConfigs.xml
+/.idea/webServers.xml

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="My Site" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="My Site">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/templates/cassiopeia_twentytwo" local="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo" web="/templates/cassiopeia_twentytwo" />
+            <mapping deploy="/media/templates/site/cassiopeia_twentytwo" local="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media" web="/media/templates/site/cassiopeia_twentytwo" />
+            <mapping deploy="/language/en-GB" local="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/language/en-GB" web="/language/en-GB" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
