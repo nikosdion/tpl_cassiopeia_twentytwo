@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Support content warnings in fediverse feeds">
+    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Project management">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/dionysopoulos/picture_element.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/dionysopoulos/picture_element.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,8 @@
       <workItem from="1667810231254" duration="6045000" />
       <workItem from="1667847332480" duration="1154000" />
       <workItem from="1667858496659" duration="2307000" />
-      <workItem from="1670595314808" duration="30000" />
+      <workItem from="1670595314808" duration="252000" />
+      <workItem from="1670680122431" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="Restarting the site's template&#10;&#10;As a child template of Cassiopeia">
       <created>1662223879453</created>
@@ -163,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667848389157</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Type check for PHP 8.1">
+      <created>1670595475018</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670595475018</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Project management">
+      <created>1670595536048</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670595536048</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +203,9 @@
     <MESSAGE value="Fix issue with RSS/Atom feeds" />
     <MESSAGE value="Mastodon-optimised template override for mod_feed" />
     <MESSAGE value="Support content warnings in fediverse feeds" />
-    <option name="LAST_COMMIT_MESSAGE" value="Support content warnings in fediverse feeds" />
+    <MESSAGE value="Type check for PHP 8.1" />
+    <MESSAGE value="Project management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project management" />
   </component>
   <component name="WordPressConfiguration">
     <wordpressPath />
