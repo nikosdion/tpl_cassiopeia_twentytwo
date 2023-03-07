@@ -87,7 +87,7 @@ $stickyHeader = $this->params->get('stickyHeader') ? 'position-sticky sticky-top
 $wa->getAsset('style', 'fontawesome')->setAttribute('rel', 'lazy-stylesheet');
 ?>
 <!DOCTYPE html>
-<html lang="<?= $this->language ?>" dir="<?= $this->direction ?>">
+<html lang="<?= $this->language ?>" dir="<?= $this->direction ?>" prefix="og: http://ogp.me/ns#">
 <head>
     <jdoc:include type="metas" />
     <jdoc:include type="styles" />
