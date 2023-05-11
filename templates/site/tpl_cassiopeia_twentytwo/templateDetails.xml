@@ -60,6 +60,7 @@
 
         <filename>templateDetails.xml</filename>
         <filename>index.php</filename>
+        <filename>error.php</filename>
     </files>
 
     <media folder="media" destination="templates/site/cassiopeia_twentytwo">
