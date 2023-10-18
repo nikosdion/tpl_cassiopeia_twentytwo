@@ -9,6 +9,7 @@
 :root {
   --primary: #d43431;
   --secondary: #932220;
+  --secondary-color: #932220;
   --success: #4bd24b;
   --info: #4786bd;
   --warning: #edc25e;
@@ -28,6 +29,9 @@
   --cassiopeia-color-link: #932220;
   --cassiopeia-color-hover: #e23936;
 
+  --link-color: #932220;
+  --link-hover-color: #e23936;
+
   --hue: 1;
   --template-bg-light: #f0f4fb;
   --template-text-dark: #495057;
@@ -39,9 +43,9 @@
 @media screen and (prefers-color-scheme: dark) {
   :root {
     --cassiopeia-color-link: #cb5a5a;
-  }
-
-  html {
-    font-size: 1.1rem;
+    --link-color: #cb5a5a;
+    --link-hover-color: #932220;
+    --secondary-color: #97b8cc;
+    --card-color: #e9ecef !important;
   }
 }

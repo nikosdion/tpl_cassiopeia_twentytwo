@@ -8,12 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Project management">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/error.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/com_users/profile/default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/com_users/profile/default_core.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/com_users/profile/default_field.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_dark_misc.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/dionysopoulos/blogger_info.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/dionysopoulos/blogger_info.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/templateDetails.xml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/templateDetails.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/user.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/user.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,9 @@
       <path value="$PROJECT_DIR$/../../master/joomla4" />
     </include_path>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2EGKw5c2mTCQj8safudDf9b7zUN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,9 +62,9 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "19.7.0",
-    "javascript.nodejs.core.library.typings.version": "20.1.2",
-    "last_opened_file_path": "/Users/nicholas/Projects/dionysopoulos/tpl_cassiopeia_twentytwo/templates/site/tpl_cassiopeia_twentytwo",
+    "javascript.nodejs.core.library.configured.version": "20.8.0",
+    "javascript.nodejs.core.library.typings.version": "20.8.0",
+    "last_opened_file_path": "/Users/nicholas/Projects/dionysopoulos/tpl_cassiopeia_twentytwo/templates/site/tpl_cassiopeia_twentytwo/html/com_users/profile",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,11 +78,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/com_users/profile" />
       <recent name="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo" />
       <recent name="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/mod_feed" />
       <recent name="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/html" />
       <recent name="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/language/en-GB" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss" />
@@ -113,6 +121,7 @@
       <workItem from="1670680122431" duration="20000" />
       <workItem from="1677840800578" duration="277000" />
       <workItem from="1683781753901" duration="410000" />
+      <workItem from="1697618507016" duration="3099000" />
     </task>
     <task id="LOCAL-00001" summary="Restarting the site's template&#10;&#10;As a child template of Cassiopeia">
       <created>1662223879453</created>

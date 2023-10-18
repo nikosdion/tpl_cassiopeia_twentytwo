@@ -9,6 +9,8 @@
 
 defined('_JEXEC') or die;
 
+return;
+
 use Joomla\CMS\Factory;
 use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\Plugin\PluginHelper;
@@ -68,6 +70,13 @@ if (empty($avatarHTML))
 	$avatarHTML    = HTMLHelper::_('image', $avatarURL, sprintf('Photo of %s', $author));
 }
 
+$avatarHTML = $avatarHTML ?:
+	sprintf(
+		'<img src="%s" alt="%s" loading="lazy" width="256" height="256">',
+		sprintf("https://secure.gravatar.com/avatar/%s.jpg?s=256&d=mm", md5($user->email)),
+		sprintf('Photo of %s', $author)
+	);
+
 // Get the profile URL from the Akeeba Engage plugins
 if (empty($authorURL))
 {
@@ -84,15 +93,18 @@ if (empty($authorURL))
 	<div class="d-md-none img-fluid blogger-bio-mobile-image">
 		<?= $avatarHTML ?>
 	</div>
+	<?php endif ?>
 	<div class="card-body">
 		<div class="d-flex flex-row gap-2">
+			<?php if ($avatarHTML) : ?>
 			<div class="d-none d-md-flex blogger-bio-desktop-image"><?= $avatarHTML ?></div>
+			<?php endif ?>
 			<div class="blogger-bio-details">
 				<div class="blogger-bio-blurb">
 					<?= $bio ?>
 				</div>
 				<div class="blogger-bio-contact">
-					<a class="btn btn-sm btn-outline-primary"
+					<a class="btn btn-sm btn-outline-secondary"
 					   href="<?= $authorURL ?>"
 					   rel="nofollow"
 					   target="_blank"
@@ -105,5 +117,5 @@ if (empty($authorURL))
 			</div>
 		</div>
 	</div>
-	<?php endif ?>
+
 </div>

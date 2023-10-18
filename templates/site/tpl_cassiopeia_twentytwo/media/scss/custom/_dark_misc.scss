@@ -1,0 +1,24 @@
+/**
+ *  Cassiopeia/TwentyTwo — Dionysopoulos.me Official Site Template
+ *
+ *  @package     tpl_cassiopeia_twentytwo
+ *  @copyright   (C) 2022 Nicholas K. Dionysopoulos
+ *  @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+html {
+  font-size: 1.1rem;
+}
+
+.card-body {
+  color: #e9ecef;
+}
+
+.card.blogger-bio {
+  border-color: #932220;
+
+  .card-header.blogger-bio-name {
+    background-color: #932220;
+    color: white;
+  }
+}

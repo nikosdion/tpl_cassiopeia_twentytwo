@@ -12,3 +12,7 @@
 @import "custom/blog";
 @import "custom/tags";
 @import "custom/bottom-footer";
+
+@media screen and (prefers-color-scheme: dark) {
+  @import "custom/dark_misc";
+}
