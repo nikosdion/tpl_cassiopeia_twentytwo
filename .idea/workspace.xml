@@ -7,19 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Project management">
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/com_users/profile/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/com_users/profile/default_core.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/com_users/profile/default_field.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_dark_misc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/dionysopoulos/blogger_info.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/dionysopoulos/blogger_info.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/css/user.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/custom/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/user.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss/user.scss" afterDir="false" />
-    </list>
+    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Changes for Joomla! 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +109,7 @@
       <workItem from="1670680122431" duration="20000" />
       <workItem from="1677840800578" duration="277000" />
       <workItem from="1683781753901" duration="410000" />
-      <workItem from="1697618507016" duration="3099000" />
+      <workItem from="1697618507016" duration="3757000" />
     </task>
     <task id="LOCAL-00001" summary="Restarting the site's template&#10;&#10;As a child template of Cassiopeia">
       <created>1662223879453</created>
@@ -200,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1670595536048</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Changes for Joomla! 5">
+      <option name="closed" value="true" />
+      <created>1697621780727</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697621780727</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +224,8 @@
     <MESSAGE value="Support content warnings in fediverse feeds" />
     <MESSAGE value="Type check for PHP 8.1" />
     <MESSAGE value="Project management" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project management" />
+    <MESSAGE value="Changes for Joomla! 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes for Joomla! 5" />
   </component>
   <component name="WordPressConfiguration">
     <wordpressPath />
