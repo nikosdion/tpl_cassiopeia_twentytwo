@@ -1,17 +1,19 @@
 <?xml version="1.0"?>
-<project name="DionysopoulosTemplateCassiopeiaTwentyTwo" description="Template for Dionysopoulos.me" default="git" >
-	<import file="${phing.dir}/../../buildfiles/phing/common.xml" />
+<!--
+  ~  Cassiopeia/TwentyTwo — Dionysopoulos.me Official Site Template
+  ~
+  ~  @package     tpl_cassiopeia_twentytwo
+  ~  @copyright   (C) 2022 Nicholas K. Dionysopoulos
+  ~  @license     GNU General Public License version 2 or later; see LICENSE.txt
+  -->
 
-	<!-- Fileset for building the package ZIP -->
+<project name="DionysopoulosTemplateCassiopeiaTwentyTwo" description="Template for Dionysopoulos.me" default="git" >
+	<import file="${phing.dir}/../buildfiles/phing/common.xml" />
+
 	<fileset dir="${dirs.root}/templates/site/tpl_cassiopeia_twentytwo" id="template">
 		<include name="**" />
 	</fileset>
 
-	<!--
-	====================================================================================================
-	Build customization
-	====================================================================================================
-	-->
 	<target name="git" description="Makes the template package"
 			depends="new-release,setup-properties,template-package">
 	</target>
@@ -25,19 +27,5 @@
 			   includeemptydirs="true">
 			<fileset refid="template" />
 		</zipme>
-	</target>
-
-	<!--
-	====================================================================================================
-	Tasks - Documentation
-	====================================================================================================
-	-->
-
-	<target name="documentation" description="The documentation">
-		<echo message="There is no documentation" />
-	</target>
-
-	<target name="docsdeploy">
-		<echo message="There is no documentation" />
 	</target>
 </project>

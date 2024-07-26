@@ -7,7 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Changes for Joomla! 5" />
+    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Changes for Joomla! 5">
+      <change beforePath="$PROJECT_DIR$/.idea/phing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/build.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/templates/link.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,14 +31,14 @@
     <joomlaConfigPath>$PROJECT_DIR$/../../master/joomla4/configuration.php</joomlaConfigPath>
     <joomlaPath>$PROJECT_DIR$/../../master/joomla4</joomlaPath>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
     <include_path>
       <path value="$PROJECT_DIR$/../../master/joomla4" />
     </include_path>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2EGKw5c2mTCQj8safudDf9b7zUN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,9 +56,9 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "20.8.0",
-    "javascript.nodejs.core.library.typings.version": "20.8.0",
-    "last_opened_file_path": "/Users/nicholas/Projects/dionysopoulos/tpl_cassiopeia_twentytwo/templates/site/tpl_cassiopeia_twentytwo/html/com_users/profile",
+    "javascript.nodejs.core.library.configured.version": "22.5.1",
+    "javascript.nodejs.core.library.typings.version": "20.14.12",
+    "last_opened_file_path": "/home/nicholas/Projects/dionysopoulos/tpl_cassiopeia_twentytwo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,6 +79,7 @@
       <recent name="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/language/en-GB" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/media/scss" />
       <recent name="$PROJECT_DIR$/templates/site" />
     </key>
@@ -86,6 +93,14 @@
         <item itemvalue="HTTP Request.scratch_1 | #1" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -110,6 +125,7 @@
       <workItem from="1677840800578" duration="277000" />
       <workItem from="1683781753901" duration="410000" />
       <workItem from="1697618507016" duration="3757000" />
+      <workItem from="1721984020179" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="Restarting the site's template&#10;&#10;As a child template of Cassiopeia">
       <created>1662223879453</created>
