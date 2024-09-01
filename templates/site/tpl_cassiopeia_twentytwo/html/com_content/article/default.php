@@ -43,5 +43,42 @@ $this->item->event->afterDisplayContent =
 	])
 	. $this->item->event->afterDisplayContent;
 
+// Display video custom field, if necessary
+$videoUrl = array_reduce(
+	is_array($this->item->jcfields) ? $this->item->jcfields : [],
+	fn(?object $carry, ?object $item) => $item?->name === 'video' ? $item : $carry,
+	null
+)?->rawvalue;
+$videoId    = $videoUrl ? \Joomla\CMS\Uri\Uri::getInstance($videoUrl)->getVar('v') : null;
+
+if (!empty($videoUrl)) {
+	$videoUri = \Joomla\CMS\Uri\Uri::getInstance($videoUrl);
+	$this->item->event->beforeDisplayContent .= <<< HTML
+<iframe src="https://www.youtube-nocookie.com/embed/$videoId"
+		style="width: 100%; aspect-ratio: 1.78"
+		title="YouTube video player" frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="my-2 card card-body">
+	<p class="m-0">
+		<a href="https://www.youtube.com/@NicholasDionysopoulos"
+			class="btn btn-primary btn-sm"
+		>
+			<span class="fab fa-youtube me-1" aria-hidden="true"></span>
+			Visit my YouTube channel
+		</a>
+	</p>
+</div>
+<p class="mt-1 mb-4 px-3 small text-info">
+	<span class="fa fa-info-circle" aria-hidden="true"></span>
+	Additional cookies and / or trackers may be used by YouTube when playing back the video.
+</p>
+HTML;
+
+}
+
+// $this->item->event->beforeDisplayContent .= '';
+
+
 // Load the core template
 include JPATH_COMPONENT . '/tmpl/article/default.php';

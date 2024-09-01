@@ -7,12 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Changes for Joomla! 5">
-      <change beforePath="$PROJECT_DIR$/.idea/phing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phing.xml" afterDir="false" />
+    <list default="true" id="822c413c-e0e9-43dc-ae60-4b99d29a9d82" name="Changes" comment="Move build.xml to root">
+      <change afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/layouts/joomla/content/blog_style_default_item_title.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/templates/link.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/com_content/article/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/tpl_cassiopeia_twentytwo/html/com_content/article/default.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +26,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "leeroy1821"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:nikosdion/tpl_cassiopeia_twentytwo.git",
+    "accountId": "6ab30545-06ea-49cf-b1fd-fd0afb609eca"
+  }
+}]]></component>
   <component name="JoomlaConfiguration" enabled="true">
     <joomlaConfigPath>$PROJECT_DIR$/../../master/joomla4/configuration.php</joomlaConfigPath>
     <joomlaPath>$PROJECT_DIR$/../../master/joomla4</joomlaPath>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
     <include_path>
-      <path value="$PROJECT_DIR$/../../master/joomla4" />
+      <path value="$PROJECT_DIR$/../../master/joomla5" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -56,9 +67,9 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "22.5.1",
-    "javascript.nodejs.core.library.typings.version": "20.14.12",
-    "last_opened_file_path": "/home/nicholas/Projects/dionysopoulos/tpl_cassiopeia_twentytwo",
+    "javascript.nodejs.core.library.configured.version": "22.7.0",
+    "javascript.nodejs.core.library.typings.version": "22.5.1",
+    "last_opened_file_path": "/home/nicholas/Projects/master/joomla5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,8 +77,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "/opt/homebrew/bin/npm",
-    "settings.editor.selected.configurable": "web.server",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "HTML"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -97,8 +113,12 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
-        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PS-242.21829.154" />
+        <option value="bundled-php-predefined-a98d8de5180a-4d9f4c849d09-com.jetbrains.php.sharedIndexes-PS-242.21829.154" />
+        <option value="php-phar_io_version-970fd879c5a4-df0e2d90" />
+        <option value="php-phpunit_php_code_coverage-970fd879c5a4-19659224" />
+        <option value="php-phpunit_phpunit-970fd879c5a4-35b87395" />
+        <option value="php-sebastian_comparator-970fd879c5a4-eb03be14" />
       </set>
     </attachedChunks>
   </component>
@@ -125,7 +145,11 @@
       <workItem from="1677840800578" duration="277000" />
       <workItem from="1683781753901" duration="410000" />
       <workItem from="1697618507016" duration="3757000" />
-      <workItem from="1721984020179" duration="43000" />
+      <workItem from="1721984020179" duration="68000" />
+      <workItem from="1722455297904" duration="156000" />
+      <workItem from="1722456876759" duration="1650000" />
+      <workItem from="1722459016649" duration="2000" />
+      <workItem from="1725178154752" duration="3231000" />
     </task>
     <task id="LOCAL-00001" summary="Restarting the site's template&#10;&#10;As a child template of Cassiopeia">
       <created>1662223879453</created>
@@ -212,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697621780727</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Move build.xml to root">
+      <option name="closed" value="true" />
+      <created>1721984084395</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721984084395</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,9 +273,14 @@
     <MESSAGE value="Type check for PHP 8.1" />
     <MESSAGE value="Project management" />
     <MESSAGE value="Changes for Joomla! 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes for Joomla! 5" />
+    <MESSAGE value="Move build.xml to root" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move build.xml to root" />
   </component>
   <component name="WordPressConfiguration">
     <wordpressPath />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
